@@ -10,3 +10,6 @@ For this first step, we will use the code from the following link :
 https://www.quantstart.com/articles/European-vanilla-option-pricing-with-C-via-Monte-Carlo-methods/ .
 
 The corresponding code will be included in the github.
+
+We can also use https://www.quantstart.com/articles/European-vanilla-option-pricing-with-C-and-analytic-formulae/ for comparing with the analytical formulae.
+
