@@ -30,3 +30,5 @@ This is also something I found for working with QuantLib on CLion : https://blog
 https://github.com/yhicc/FinancialLibrary .
 Nice results in this google search : https://www.google.com/search?q=adding+quantlib+to+clion&rlz=1C5CHFA_enFR947FR947&oq=adding+quantlib+to+clion&aqs=chrome..69i57.3371j1j7&sourceid=chrome&ie=UTF-8 . 
 But this is for later
+
+https://github.com/yhicc/FinancialLibrary
