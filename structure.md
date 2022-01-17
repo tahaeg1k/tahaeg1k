@@ -15,6 +15,9 @@ We can also use https://www.quantstart.com/articles/European-vanilla-option-pric
 
 ## Second step : 
 
-https://github.com/felixkylo82/options-pricing
+Using the code from the following link :
+https://github.com/felixkylo82/options-pricing .
+
+We will build a framework for Monte Carlo pricing. Main issue right now is to create CMake files to make sure we can build the project.
 
 https://github.com/frankieycy/option-pricing
