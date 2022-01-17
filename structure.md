@@ -13,3 +13,8 @@ The corresponding code will be included in the github.
 
 We can also use https://www.quantstart.com/articles/European-vanilla-option-pricing-with-C-and-analytic-formulae/ for comparing with the analytical formulae.
 
+## Second step : 
+
+https://github.com/felixkylo82/options-pricing
+
+https://github.com/frankieycy/option-pricing
