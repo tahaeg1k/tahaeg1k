@@ -3,6 +3,7 @@
 
 #include <cassert>
 #include <cfloat>
+#include <iostream>
 
 
 BlackScholes::BlackScholes()= default;

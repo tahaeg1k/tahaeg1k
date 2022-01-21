@@ -13,9 +13,9 @@ MonteCarlo::~MonteCarlo()
 {
 }
 
-double MonteCarlo::callOptionValue(double _spotPrice, double strickPrice, double yearsToExpiry, double _riskFreeInterestRate, double _volatility, double _dividendYield) const {
+double MonteCarlo::callOptionValue(double _spotPrice, double strike, double yearsToExpiry, double _riskFreeInterestRate, double _volatility, double _dividendYield) const {
 	assert(_spotPrice >= 0.0);
-	assert(strickPrice >= 0.0);
+	assert(strike >= 0.0);
 	if (yearsToExpiry < 0.0) yearsToExpiry = 0.0;
 	assert(_volatility >= 0.0);
 
@@ -39,7 +39,7 @@ double MonteCarlo::callOptionValue(double _spotPrice, double strickPrice, double
 			configuration[j].S = configuration[j - 1].S * exp(volatility * X1 * sqrtDeltaT);
 		}
 
-		double V = configuration[n - 1].S - strickPrice;
+		double V = configuration[n - 1].S - strike;
 		if (V < 0.0) V = 0.0;
 
 		ret += V;
@@ -50,9 +50,9 @@ double MonteCarlo::callOptionValue(double _spotPrice, double strickPrice, double
 	return ret;
 }
 
-double MonteCarlo::putOptionValue(double _spotPrice, double strickPrice, double yearsToExpiry, double _riskFreeInterestRate, double _volatility, double _dividendYield) const {
+double MonteCarlo::putOptionValue(double _spotPrice, double strike, double yearsToExpiry, double _riskFreeInterestRate, double _volatility, double _dividendYield) const {
 	assert(_spotPrice >= 0.0);
-	assert(strickPrice >= 0.0);
+	assert(strike >= 0.0);
 	if (yearsToExpiry < 0.0) yearsToExpiry = 0.0;
 	assert(_volatility >= 0.0);
 
@@ -76,7 +76,7 @@ double MonteCarlo::putOptionValue(double _spotPrice, double strickPrice, double 
 			configuration[j].S = configuration[j - 1].S * exp(volatility * X1 * sqrtDeltaT);
 		}
 
-		double V = strickPrice - configuration[n - 1].S;
+		double V = strike - configuration[n - 1].S;
 		if (V < 0.0) V = 0.0;
 
 		ret += V;

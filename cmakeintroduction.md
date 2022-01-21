@@ -9,3 +9,6 @@ also provides a nice structure which we are going to use
 set up our project environment. 
 
 Also RTFM at https://cmake.org/cmake/help/latest/manual/cmake-buildsystem.7.html
+
+At the end, I settled for one CMakeLists.txt file located 
+at the folder options-pricing/. 

@@ -186,8 +186,3 @@ double PutOptionValue::theta(double spotPrice, double strike, double yearsToExpi
 double PutOptionValue::rho(double spotPrice, double strike, double yearsToExpiry, double riskFreeInterestRate, double volatility, double dividendYield) const {
 	return this->model.putOptionRho(spotPrice, strike, yearsToExpiry, riskFreeInterestRate, volatility, dividendYield);
 }
-
-int main(){
-    std::cout << "OptionsPricingModel.cpp check" << std::endl;
-    return 0;
-}
