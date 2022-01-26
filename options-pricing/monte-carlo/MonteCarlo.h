@@ -1,5 +1,14 @@
-#pragma once
+/** @file MonteCarlo.h
+ *  @brief Monte Carlo simulations.
+ *
+ *  This file contains the function declaration for Monte Carlo simulations.
+ *
+ *  @author Mohamed Taha Bennani
+ *  @bug No known bugs.
+ *
+ */
 
+#pragma once
 
 #include "OptionsPricingModel.h"
 

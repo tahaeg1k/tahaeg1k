@@ -14,15 +14,15 @@ int main(){
     double S = 100.0;  // spot price
     double K = 50.0;  // Strike price
     double T = 1.0;    // One year until expiry
-    double r = 5.0;   // Risk-free rate (5%)
-    double v = 20.0;    // Volatility of the underlying (20%)
-    double q= 0.0; // dividend yield of the stock
+    double r = 0.05;   // Risk-free rate (5%)
+    double v = 0.30;    // Volatility of the underlying (20%)
+    double q = 0.0; // dividend yield of the stock
 
     BlackScholes model_bs;
     double call_t_bs = model_bs.callOptionValue(S, K, T, r, v, q);
     std::cout << "Call option value using Black-Scholes formula: " << call_t_bs << std::endl;
 
-    Binomial model_b;
+    Binomial model_b;// Need to modify for r = 0.05 not 5%
     double call_t_b = model_b.callOptionValue(S,K,T,r,v,q);
     std::cout << "Call option value using binomial method : " << call_t_b << std::endl;
 

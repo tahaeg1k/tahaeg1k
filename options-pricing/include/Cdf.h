@@ -3,7 +3,7 @@
 
 #define _USE_MATH_DEFINES
 
-#define _HUGE_ENUF  1e+10 // temporary until I understand what the fuck is _HUGE_ENUF
+#define _HUGE_ENUF  1e+10 // temporary until I understand what is _HUGE_ENUF
 
 #include <cmath>
 #include <cstdlib>

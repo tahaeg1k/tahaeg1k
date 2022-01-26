@@ -15,7 +15,7 @@ add_library(lib
         base/OptionsPricingModel.cpp
         black-scholes/BlackScholes.h black-scholes/BlackScholes.cpp
         binomial/Binomial.h binomial/Binomial.cpp
-        monte-carlo/MonteCarlo.h monte-carlo/MonteCarlo.cpp)
+        monte-carlo/MonteCarlo.h monte-carlo/MonteCarlo.cpp include/random_singleton.cpp include/random_singleton.h)
 
 target_include_directories(lib PUBLIC include)
 target_include_directories(lib PUBLIC base)
@@ -23,6 +23,9 @@ target_include_directories(lib PUBLIC black-scholes)
 target_include_directories(lib PUBLIC binomial)
 target_include_directories(lib PUBLIC monte-carlo)
 
+add_executable(random_test main_rd.cpp)
 add_executable(pricing_test main_bs.cpp)
+
+target_link_libraries(random_test lib)
 target_link_libraries(pricing_test lib)
 

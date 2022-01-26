@@ -13,20 +13,20 @@ MonteCarlo::~MonteCarlo()
 {
 }
 
-double MonteCarlo::callOptionValue(double _spotPrice, double strike, double yearsToExpiry, double _riskFreeInterestRate, double _volatility, double _dividendYield) const {
+double MonteCarlo::callOptionValue(double _spotPrice, double strike, double yearsToExpiry, double riskFreeInterestRate, double volatility, double dividendYield) const {
 	assert(_spotPrice >= 0.0);
 	assert(strike >= 0.0);
 	if (yearsToExpiry < 0.0) yearsToExpiry = 0.0;
-	assert(_volatility >= 0.0);
+	assert(volatility >= 0.0);
 
-	double riskFreeInterestRate = _riskFreeInterestRate / 100.0;
-	double volatility = _volatility / 100.0;
-	double dividendYield = _dividendYield / 100.0;
+	//double riskFreeInterestRate = _riskFreeInterestRate / 100.0;
+	//double volatility = _volatility / 100.0;
+	//double dividendYield = _dividendYield / 100.0;
 
 	const int m = 100000;
 	const int n = 100;
 
-	double deltaT = yearsToExpiry / (n - 1);
+	double deltaT = yearsToExpiry / (n - 1); // yearsToExpiry is (T-t)
 	double sqrtDeltaT = sqrt(deltaT);
 	double spotPrice = _spotPrice * exp((riskFreeInterestRate - dividendYield) * yearsToExpiry);
 
@@ -50,15 +50,15 @@ double MonteCarlo::callOptionValue(double _spotPrice, double strike, double year
 	return ret;
 }
 
-double MonteCarlo::putOptionValue(double _spotPrice, double strike, double yearsToExpiry, double _riskFreeInterestRate, double _volatility, double _dividendYield) const {
+double MonteCarlo::putOptionValue(double _spotPrice, double strike, double yearsToExpiry, double riskFreeInterestRate, double volatility, double dividendYield) const {
 	assert(_spotPrice >= 0.0);
 	assert(strike >= 0.0);
 	if (yearsToExpiry < 0.0) yearsToExpiry = 0.0;
-	assert(_volatility >= 0.0);
+	assert(volatility >= 0.0);
 
-	double riskFreeInterestRate = _riskFreeInterestRate / 100.0;
-	double volatility = _volatility / 100.0;
-	double dividendYield = _dividendYield / 100.0;
+	//double riskFreeInterestRate = _riskFreeInterestRate / 100.0;
+	//double volatility = _volatility / 100.0;
+	//double dividendYield = _dividendYield / 100.0;
 
 	const int m = 100000;
 	const int n = 100;
