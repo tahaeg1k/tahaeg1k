@@ -128,6 +128,11 @@ double Random::normalCDF(double x) // Phi(-∞, x) aka N(x)
     return std::erfc(-x/sqrt(2))/2;
 }
 
+double Random::normalPDF(double x) // n(x)
+{
+    return std::exp(-x*x/2)/ std::sqrt(2*M_PI);
+}
+
 double Random::inverse_normalCDF(double x)
 {
     double c0 = 2.515517;

@@ -72,6 +72,8 @@ public:
      */
     static double normalCDF(double x);
 
+    static double normalPDF(double x);
+
     static double inverse_normalCDF(double x);
 
     static double Payoff_Call(double S, double K);

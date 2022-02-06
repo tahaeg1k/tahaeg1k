@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblib.a CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.o CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o CMakeFiles/lib.dir/binomial/Binomial.cpp.o CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o CMakeFiles/lib.dir/include/random_singleton.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblib.a

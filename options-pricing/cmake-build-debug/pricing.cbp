@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pricing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pricing_test">
+				<Option output="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/pricing_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 pricing_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pricing_test/fast">
+				<Option output="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/pricing_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 pricing_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asian_test">
+				<Option output="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/asian_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 asian_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="asian_test/fast">
+				<Option output="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/asian_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 asian_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="random_test">
+				<Option output="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/random_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 random_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="random_test/fast">
+				<Option output="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/random_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 random_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib">
+				<Option output="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib/fast">
+				<Option output="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/liblib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
+					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base/OptionsPricingModel.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial/Binomial.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial/Binomial.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes/BlackScholes.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes/BlackScholes.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products/EuropeanVanilla.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products/EuropeanVanilla.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/Cdf.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/OptionsPricingModel.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/random_singleton.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/random_singleton.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/main_asian.cpp">
+			<Option target="asian_test"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/main_bs.cpp">
+			<Option target="pricing_test"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/main_rd.cpp">
+			<Option target="random_test"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo/MonteCarlo.cpp">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo/MonteCarlo.h">
+			<Option target="lib"/>
+		</Unit>
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
