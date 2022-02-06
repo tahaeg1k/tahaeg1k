@@ -13,19 +13,13 @@ int main(){
     Random::Randomize(time(0));
 
     int ite = 1000000; // Number of iterations
-    int Bin;
-    int N = 10;
-    double Ber;
-    double prob = 0.5;
-    double expo;
-    double cauchy;
-    double lambda = 1.;
-    double gamma;
-    double a = 0.5;
     double T = 1;
     double h = T/double(ite);
 
-    double mean = 0;
+    double price_value = 0;
+    double delta_value = 0;
+    double gamma_value = 0;
+    double vega_value = 0;
     double var_quad = 0;
 
     double normale;
@@ -39,40 +33,61 @@ int main(){
     double sigma = 0.3;
     double K = 50;
     double mean_squared = 0;
-
+    double WT;
     double W[ite];
+    W[0] = 0;
 
-    for( int j=0; j<ite-1; j++)
+    for( int j=0; j<ite; j++)
     {
-        //  Bin = Random::Binomial(prob);
-        // Ber = Random::Bernoulli(N,prob);
-        // mean += Bin;
-        // expo = Random::Exponentielle(lambda);
-        // cauchy = Random::Cauchy(0, lambda);
-        // normale = Random::BoxMuller(0, 1);
         normale = Random::Gaussian(0,1);
-        ST = S0 * exp( (r - 0.5 * sigma * sigma)*T + sigma * sqrt(T) * normale);
-        mean += (ST >= K) ? ST - K : 0.0;
+        WT = std::sqrt(T) * normale;
+        ST = S0 * exp( (r - 0.5 * sigma * sigma)*T + sigma* WT );
+        price_value += (ST >= K) ? ST - K : 0.0;
+        delta_value += (ST >= K) ? (ST - K)*WT/(S0*sigma*T) : 0.0;
+        gamma_value += (ST >= K) ? (ST - K)*(WT*WT - sigma*T*WT - T)/std::pow(S0*sigma*T, 2) : 0.0;
+        vega_value += (ST >= K) ? (ST - K)*(WT*WT - sigma*T*WT - T)/(sigma*T) : 0.0;
         mean_squared += (ST >= K) ? (ST - K) * (ST - K) : 0.0;
-        // var_quad += normale * normale;
-        //  mean += expo;
-        // moy_courante[j+1] = mean/(double(j+1));
-        W[j+1] = W[j] + normale;
-        // gamma = Random::Gamma(a);
-        // mean += gamma;
-        // cout << moy_courante[j+1] << endl;
-        // mean  = W[j+1]/((j+1)*h);
+        W[j+1] = W[j] + std::sqrt(h)*normale;
     }
 
-    mean /= double(ite); // Mean over all simulated samples
-    mean *= exp(-r* T); // Discount using the constant interest rate r
-    cout << "Empirical mean found by Monte Carlo = " << mean <<  endl;
-    cout << " Theoretical price from Random file= " << Random::Call_price_BS(S0, r, T, K, sigma) << endl;
+    price_value *= exp(-r* T); // Discount using the constant interest rate r
+    delta_value *= exp(-r* T);
+    gamma_value *= exp(-r* T);
+    vega_value *= exp(-r* T);
+
+    price_value /= double(ite); // Mean over all simulated samples
+    delta_value /= double(ite);
+    gamma_value /= double(ite);
+    vega_value /= double(ite);
 
     BlackScholes model_bs;
-    double call_t_bs = model_bs.callOptionValue(S0, K, T, r, sigma, 0);
-    std::cout << "Call option value using Black-Scholes formula: " << call_t_bs << std::endl;
+    double call_price_bs = model_bs.callOptionValue(S0, K, T, r, sigma, 0);
+    double call_delta_bs = model_bs.callOptionDelta(S0, K, T, r, sigma, 0);
+    double call_vega_bs = model_bs.callOptionVega(S0, K, T, r, sigma, 0);
 
+
+
+
+
+    cout << "------PRICE COMPARISON------"<< endl;
+    cout << "Empirical mean found by Monte Carlo = " << price_value <<  endl;
+    cout << " Theoretical price from Random file= " << Random::Call_price_BS(S0, r, T, K, sigma) << endl;
+    std::cout << "Call option value using Black-Scholes formula: " << call_price_bs << std::endl;
+    cout << endl;
+
+    cout << "------DELTA COMPARISON------"<< endl;
+    cout << "Empirical mean found by Monte Carlo = " << delta_value <<endl;
+    cout << "Call option value using Black-Scholes formula: " << call_delta_bs <<endl;
+    cout << endl;
+
+    cout << "------GAMMA COMPARISON------"<< endl;
+    cout << "Empirical mean found by Monte Carlo = " << gamma_value <<endl;
+    cout << "Call option value using Black-Scholes formula: " << "NO FUNCTION IMPLEMENTED YET" <<endl;
+    cout << endl;
+
+    cout << "------VEGA COMPARISON------"<< endl;
+    cout << "Empirical mean found by Monte Carlo = " << vega_value <<endl;
+    cout << "Call option value using Black-Scholes formula: "<< call_vega_bs <<endl;
 
     return 0;
 
