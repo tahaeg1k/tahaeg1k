@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pricing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "asian_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-asian_test-Debug-760f7a3583fc626049b9.json",
+					"name" : "asian_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lib-Debug-0aa63f2f1ff7aaee7c7e.json",
+					"name" : "lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pricing_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pricing_test-Debug-69cc54ffb3aac7cdcc5c.json",
+					"name" : "pricing_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "random_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-random_test-Debug-f0ce0780fa79061942bf.json",
+					"name" : "random_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug",
+		"source" : "/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
