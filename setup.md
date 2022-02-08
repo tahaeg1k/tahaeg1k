@@ -23,12 +23,10 @@ See also : https://kig.re/2018/09/20/c++-newbie-tour-how-to-get-started-with-c++
 In order to create good projects on C++, it is important to understand how projects are structured.
 For this https://github.com/kigster/cmake-project-template provides a nice template to start with CMake.
 
+## Using the options pricing project
 
-## Setting QuantLib on CLion
+Once you have CLion installed you can use VCS
+to pull the projet from the following link on github :
+https://github.com/tahaeg1k/tahaeg1k .
 
-This is also something I found for working with QuantLib on CLion : https://blog.jetbrains.com/clion/2015/12/quantlib-clion/ .
-https://github.com/yhicc/FinancialLibrary .
-Nice results in this google search : https://www.google.com/search?q=adding+quantlib+to+clion&rlz=1C5CHFA_enFR947FR947&oq=adding+quantlib+to+clion&aqs=chrome..69i57.3371j1j7&sourceid=chrome&ie=UTF-8 . 
-But this is for later
-
-https://github.com/yhicc/FinancialLibrary
+MAKE SURE TO CHOOSE THE RENDU BRANCH !

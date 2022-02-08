@@ -69,19 +69,19 @@ include CMakeFiles/lib.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lib.dir/flags.make
 
-CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o: ../base/OptionsPricingModel.cpp
-CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o -MF CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o.d -o CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o -c /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base/OptionsPricingModel.cpp
+CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o: CMakeFiles/lib.dir/flags.make
+CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o: ../include/OptionsPricingModel.cpp
+CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o -MF CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o.d -o CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o -c /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/OptionsPricingModel.cpp
 
-CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base/OptionsPricingModel.cpp > CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.i
+CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/OptionsPricingModel.cpp > CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.i
 
-CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base/OptionsPricingModel.cpp -o CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.s
+CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/OptionsPricingModel.cpp -o CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.s
 
 CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.o: ../black-scholes/BlackScholes.cpp
@@ -97,38 +97,10 @@ CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes/BlackScholes.cpp -o CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.s
 
-CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o: ../financial-products/EuropeanVanilla.cpp
-CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o -MF CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o.d -o CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o -c /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products/EuropeanVanilla.cpp
-
-CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products/EuropeanVanilla.cpp > CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.i
-
-CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products/EuropeanVanilla.cpp -o CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.s
-
-CMakeFiles/lib.dir/binomial/Binomial.cpp.o: CMakeFiles/lib.dir/flags.make
-CMakeFiles/lib.dir/binomial/Binomial.cpp.o: ../binomial/Binomial.cpp
-CMakeFiles/lib.dir/binomial/Binomial.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lib.dir/binomial/Binomial.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/binomial/Binomial.cpp.o -MF CMakeFiles/lib.dir/binomial/Binomial.cpp.o.d -o CMakeFiles/lib.dir/binomial/Binomial.cpp.o -c /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial/Binomial.cpp
-
-CMakeFiles/lib.dir/binomial/Binomial.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lib.dir/binomial/Binomial.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial/Binomial.cpp > CMakeFiles/lib.dir/binomial/Binomial.cpp.i
-
-CMakeFiles/lib.dir/binomial/Binomial.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lib.dir/binomial/Binomial.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial/Binomial.cpp -o CMakeFiles/lib.dir/binomial/Binomial.cpp.s
-
 CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o: ../monte-carlo/MonteCarlo.cpp
 CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o -MF CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o.d -o CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o -c /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo/MonteCarlo.cpp
 
 CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.i: cmake_force
@@ -142,7 +114,7 @@ CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.s: cmake_force
 CMakeFiles/lib.dir/include/random_singleton.cpp.o: CMakeFiles/lib.dir/flags.make
 CMakeFiles/lib.dir/include/random_singleton.cpp.o: ../include/random_singleton.cpp
 CMakeFiles/lib.dir/include/random_singleton.cpp.o: CMakeFiles/lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/lib.dir/include/random_singleton.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lib.dir/include/random_singleton.cpp.o"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/lib.dir/include/random_singleton.cpp.o -MF CMakeFiles/lib.dir/include/random_singleton.cpp.o.d -o CMakeFiles/lib.dir/include/random_singleton.cpp.o -c /Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/random_singleton.cpp
 
 CMakeFiles/lib.dir/include/random_singleton.cpp.i: cmake_force
@@ -155,25 +127,21 @@ CMakeFiles/lib.dir/include/random_singleton.cpp.s: cmake_force
 
 # Object files for target lib
 lib_OBJECTS = \
-"CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o" \
+"CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o" \
 "CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.o" \
-"CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o" \
-"CMakeFiles/lib.dir/binomial/Binomial.cpp.o" \
 "CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o" \
 "CMakeFiles/lib.dir/include/random_singleton.cpp.o"
 
 # External object files for target lib
 lib_EXTERNAL_OBJECTS =
 
-liblib.a: CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o
+liblib.a: CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o
 liblib.a: CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.o
-liblib.a: CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o
-liblib.a: CMakeFiles/lib.dir/binomial/Binomial.cpp.o
 liblib.a: CMakeFiles/lib.dir/monte-carlo/MonteCarlo.cpp.o
 liblib.a: CMakeFiles/lib.dir/include/random_singleton.cpp.o
 liblib.a: CMakeFiles/lib.dir/build.make
 liblib.a: CMakeFiles/lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library liblib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library liblib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lib.dir/link.txt --verbose=$(VERBOSE)
 

@@ -15,7 +15,8 @@
 /** @class BlackScholes
  *  @brief BlackScholes class, subclass of OptionsPricingModel
  *
- *  For now, computation is based on the cumulative distribution function N defined in Cdf.h
+ *  For now, computation is based on the cumulative distribution function N
+ *  defined in random_singleton.h
  */
 class BlackScholes : public OptionsPricingModel
 {

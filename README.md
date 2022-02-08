@@ -4,7 +4,6 @@
 Presentation of the project folder+file structure :
 - This README gives you a quick presentation of the folder+file structure so that you can navigate around it.
 - setup.md : is for setting up the C++ environment to run the project. We advise on having CLion installed from https://www.jetbrains.com/clion/download/#section=mac . It's efficient, and you can fork directly the project using the "Get from VCS" command on CLion. 
-- structure.md : is for the structure of the project.
 - cmakeintroduction.md : for an introduction the CMake tool for building C++ projects, it's efficient and platform independant.
 - options-pricing : project folder that contains the project files. 
 

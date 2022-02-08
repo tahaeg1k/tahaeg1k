@@ -1,10 +1,3 @@
-//
-//  random-singleton.hpp
-//
-//
-//  Created by Noufel frikha on 17/11/2020.
-//  Copyright © 2020 Noufel frikha. All rights reserved.
-//
 /** @file random-singleton.h
  *  @brief Function declarations for random.
  *  Practical_Class_M2MO
@@ -122,6 +115,7 @@ public:
     //On ne peut instancier d'objets de cette classe
     //You cannot instanciate objects of this class
 private:
+
     Random(long seed=0) {iv = new long[NTAB]; Random::Randomize(seed);}
     Random(const Random&) {};
     Random operator=(const Random&) {return *this;}

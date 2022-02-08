@@ -1,6 +1,12 @@
 # Pricing options using Monte Carlo
 
-Calculate price, implied volatility of European options with Black Scholes' model, Binomial model and Monte Carlo model.
+Calculate price of European Vanilla and Exotic options using 
+the Malliavin method explained in the 
+following two papers :
+
+#### Fournié, E. and Lasry,  J.-M. and Lebuchoux, J. and Lions, P.-L. and Touzi, N, Applications of Malliavin calculus to Monte Carlo methods in finance.
+
+#### Fournié, E. and Lasry,  J.-M. and Lebuchoux, J. and Lions, P.-L. and Touzi, N, Applications of Malliavin calculus to Monte Carlo methods in finance. II
 
 ## Definitions
 
@@ -12,22 +18,49 @@ Let r be the risk-free interest rate.
 
 Let sigma be the underlying volatility.
 
+Let q be the dividend yield.
+
 Let X be a some random variable.
 
-Let S(t, X) be the spot price.
+Let St be the spot price.
 
-Let C(S, t) be the call option price.
+Let Ct be the call option price.
 
-Let delta be round(C)/round(S), theta be round(C)/round(t) and gamma be round^2(C)/round(S)^2
+## include folder
+
+Contains :
+
+    - OptionsPricingModel.h : base class
+    for any model or method.
+    - random_singelton.h : Practical_Class_M2MO
 
 
-Binomial Model and Monte Carlo Model
-=====
+## Black Scholes
+The folder black-scholes contains
+functions for computing the Black-Scholes formulas
+of European Vanilla calls and puts
+(price + Greeks).
 
-Based on delta hedging and that X follows geometric Brownian motion, using different options pricing model,
-we can compute the same results as Black Scholes' model.
-Binomial model computes option prices with a probability tree and Monte Carlo model computes option prices by simulation. In different problem settings, like calculating American option price, where analytical solutions do not exist, these models are particularly useful.
+## Monte Carlo method
 
-Implied Volatility
-=====
-In reality, the unknown is not the option price but the underlying volatility. We can still calculate this unknown implied by the model with all sorts of numerical methods.
+Based on the Malliavin calculus method explained 
+in the papers mentioned above.
+Two functions :
+
+    - MalliavinEuropeanVanilla
+    - MalliavinAsianExotic
+
+which compute the price and greeks for 
+any vanilla european product + an Asian exotic option.
+
+## Main files
+
+We saw fit to define two main files:
+
+    - main_rd.cpp : generates simulations 
+    a European vanilla product and saves 
+    them in .txt files
+    - main_asian.cpp : same as 
+    main_rd.cpp but for Asian exotic 
+    options
+

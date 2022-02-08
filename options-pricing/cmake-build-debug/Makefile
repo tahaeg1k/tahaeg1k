@@ -168,54 +168,6 @@ lib/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/build
 .PHONY : lib/fast
 
-base/OptionsPricingModel.o: base/OptionsPricingModel.cpp.o
-.PHONY : base/OptionsPricingModel.o
-
-# target to build an object file
-base/OptionsPricingModel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.o
-.PHONY : base/OptionsPricingModel.cpp.o
-
-base/OptionsPricingModel.i: base/OptionsPricingModel.cpp.i
-.PHONY : base/OptionsPricingModel.i
-
-# target to preprocess a source file
-base/OptionsPricingModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.i
-.PHONY : base/OptionsPricingModel.cpp.i
-
-base/OptionsPricingModel.s: base/OptionsPricingModel.cpp.s
-.PHONY : base/OptionsPricingModel.s
-
-# target to generate assembly for a file
-base/OptionsPricingModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/base/OptionsPricingModel.cpp.s
-.PHONY : base/OptionsPricingModel.cpp.s
-
-binomial/Binomial.o: binomial/Binomial.cpp.o
-.PHONY : binomial/Binomial.o
-
-# target to build an object file
-binomial/Binomial.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/binomial/Binomial.cpp.o
-.PHONY : binomial/Binomial.cpp.o
-
-binomial/Binomial.i: binomial/Binomial.cpp.i
-.PHONY : binomial/Binomial.i
-
-# target to preprocess a source file
-binomial/Binomial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/binomial/Binomial.cpp.i
-.PHONY : binomial/Binomial.cpp.i
-
-binomial/Binomial.s: binomial/Binomial.cpp.s
-.PHONY : binomial/Binomial.s
-
-# target to generate assembly for a file
-binomial/Binomial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/binomial/Binomial.cpp.s
-.PHONY : binomial/Binomial.cpp.s
-
 black-scholes/BlackScholes.o: black-scholes/BlackScholes.cpp.o
 .PHONY : black-scholes/BlackScholes.o
 
@@ -240,29 +192,29 @@ black-scholes/BlackScholes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/black-scholes/BlackScholes.cpp.s
 .PHONY : black-scholes/BlackScholes.cpp.s
 
-financial-products/EuropeanVanilla.o: financial-products/EuropeanVanilla.cpp.o
-.PHONY : financial-products/EuropeanVanilla.o
+include/OptionsPricingModel.o: include/OptionsPricingModel.cpp.o
+.PHONY : include/OptionsPricingModel.o
 
 # target to build an object file
-financial-products/EuropeanVanilla.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.o
-.PHONY : financial-products/EuropeanVanilla.cpp.o
+include/OptionsPricingModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.o
+.PHONY : include/OptionsPricingModel.cpp.o
 
-financial-products/EuropeanVanilla.i: financial-products/EuropeanVanilla.cpp.i
-.PHONY : financial-products/EuropeanVanilla.i
+include/OptionsPricingModel.i: include/OptionsPricingModel.cpp.i
+.PHONY : include/OptionsPricingModel.i
 
 # target to preprocess a source file
-financial-products/EuropeanVanilla.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.i
-.PHONY : financial-products/EuropeanVanilla.cpp.i
+include/OptionsPricingModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.i
+.PHONY : include/OptionsPricingModel.cpp.i
 
-financial-products/EuropeanVanilla.s: financial-products/EuropeanVanilla.cpp.s
-.PHONY : financial-products/EuropeanVanilla.s
+include/OptionsPricingModel.s: include/OptionsPricingModel.cpp.s
+.PHONY : include/OptionsPricingModel.s
 
 # target to generate assembly for a file
-financial-products/EuropeanVanilla.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/financial-products/EuropeanVanilla.cpp.s
-.PHONY : financial-products/EuropeanVanilla.cpp.s
+include/OptionsPricingModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lib.dir/build.make CMakeFiles/lib.dir/include/OptionsPricingModel.cpp.s
+.PHONY : include/OptionsPricingModel.cpp.s
 
 include/random_singleton.o: include/random_singleton.cpp.o
 .PHONY : include/random_singleton.o
@@ -396,18 +348,12 @@ help:
 	@echo "... lib"
 	@echo "... pricing_test"
 	@echo "... random_test"
-	@echo "... base/OptionsPricingModel.o"
-	@echo "... base/OptionsPricingModel.i"
-	@echo "... base/OptionsPricingModel.s"
-	@echo "... binomial/Binomial.o"
-	@echo "... binomial/Binomial.i"
-	@echo "... binomial/Binomial.s"
 	@echo "... black-scholes/BlackScholes.o"
 	@echo "... black-scholes/BlackScholes.i"
 	@echo "... black-scholes/BlackScholes.s"
-	@echo "... financial-products/EuropeanVanilla.o"
-	@echo "... financial-products/EuropeanVanilla.i"
-	@echo "... financial-products/EuropeanVanilla.s"
+	@echo "... include/OptionsPricingModel.o"
+	@echo "... include/OptionsPricingModel.i"
+	@echo "... include/OptionsPricingModel.s"
 	@echo "... include/random_singleton.o"
 	@echo "... include/random_singleton.i"
 	@echo "... include/random_singleton.s"

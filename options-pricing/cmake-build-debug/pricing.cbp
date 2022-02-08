@@ -37,9 +37,7 @@
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -64,9 +62,7 @@
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -91,9 +87,7 @@
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -118,9 +112,7 @@
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -155,9 +147,7 @@
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -182,9 +172,7 @@
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -209,9 +197,7 @@
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -236,9 +222,7 @@
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial"/>
 					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/monte-carlo"/>
-					<Add directory="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -254,28 +238,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/base/OptionsPricingModel.cpp">
-			<Option target="lib"/>
-		</Unit>
-		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial/Binomial.cpp">
-			<Option target="lib"/>
-		</Unit>
-		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/binomial/Binomial.h">
-			<Option target="lib"/>
-		</Unit>
 		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes/BlackScholes.cpp">
 			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/black-scholes/BlackScholes.h">
 			<Option target="lib"/>
 		</Unit>
-		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products/EuropeanVanilla.cpp">
-			<Option target="lib"/>
-		</Unit>
-		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/financial-products/EuropeanVanilla.h">
-			<Option target="lib"/>
-		</Unit>
-		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/Cdf.h">
+		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/OptionsPricingModel.cpp">
 			<Option target="lib"/>
 		</Unit>
 		<Unit filename="/Users/mohamedtahabennani/CLionProjects/tahaeg1k/options-pricing/include/OptionsPricingModel.h">
