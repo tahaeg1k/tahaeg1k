@@ -16,7 +16,7 @@
 void vector_to_csv(const vector<double> simulation, string filename) {
     std::ofstream outfile;
     //std::ios_base::app
-    outfile.open("Filename_" + filename + ".txt");
+    outfile.open("File_" + filename + ".txt");
     for (int i = 0; i < simulation.size(); i++) {
         outfile << simulation[i] << std::endl;
     }
