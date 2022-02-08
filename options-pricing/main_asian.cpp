@@ -1,10 +1,7 @@
-//
-// Created by Mohamed Taha Bennani on 07/02/2022.
-//
-
-//
-// Created by Mohamed Taha Bennani on 25/01/2022.
-//
+/**
+ * @file main_asian.cpp
+ * @brief Main file for Monte Carlo simulations applied to Asian options.
+ */
 
 #include "random_singleton.h"
 #include "MonteCarlo.h"

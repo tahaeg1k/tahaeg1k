@@ -1,7 +1,7 @@
-//
-// Created by Mohamed Taha Bennani on 25/01/2022.
-//
-
+/**
+ * @file main_rd.cpp
+ * @brief Main file for Monte Carlo simulations applied to European vanilla options.
+ */
 #include "random_singleton.h"
 #include "BlackScholes.h"
 #include "MonteCarlo.h"
